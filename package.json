@@ -17,6 +17,8 @@
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "@openzeppelin/contracts": "^4.3.3",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
     "axios": "^0.24.0",
     "chai": "^4.3.4",
     "ethereum-waffle": "^3.4.0",
@@ -24,8 +26,8 @@
     "hardhat": "^2.6.8",
     "ipfs-http-client": "^50.1.2",
     "next": "12.0.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "web3modal": "^1.9.4"
   },
   "devDependencies": {
