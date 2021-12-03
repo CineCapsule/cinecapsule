@@ -10,6 +10,8 @@ import { nftaddress, nftmarketaddress } from "../config";
 
 import NFT from '../abi/NFT.json'
 import Market from '../abi/NFTMarket.json'
+//import NFT from "../artifacts/contracts/NFT.sol/NFT.json";
+//import Market from "../artifacts/contracts/NFTMarket.sol/NFTMarket.json";
 
 export default function CreateItem() {
   const [fileUrl, setFileUrl] = useState(null);
@@ -97,7 +99,7 @@ export default function CreateItem() {
           }
         />
         <input
-          placeholder="Asset Price in Eth"
+          placeholder="Asset Price in ETH"
           className="mt-2 border rounded p-4"
           onChange={(e) =>
             updateFormInput({ ...formInput, price: e.target.value })

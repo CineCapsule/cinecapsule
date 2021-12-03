@@ -5,7 +5,7 @@
 /// @author Marjorie Ngoupende
 /// @notice Contract inspired by existing codes from the Ethereum community.
 /// @dev The marketplace is a collection of NFTs that can be bought and sold.
-pragma solidity ^0.8.3;
+pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
@@ -18,7 +18,7 @@ contract NFT is ERC721URIStorage {
     Counters.Counter private _tokenIds;
     address contractAddress;
 
-    constructor(address marketplaceAddress) ERC721("Kryptopixel Tokens", "KYT") {
+    constructor(address marketplaceAddress) ERC721("Cinecapsule Tokens", "CIN") {
         contractAddress = marketplaceAddress;
     }
 

@@ -5,7 +5,7 @@
 /// @author Marjorie Ngoupende
 /// @notice Contract inspired by existing codes from the Ethereum community.
 /// @dev This contract is used to create and manage the marketplace.
-pragma solidity ^0.8.3;
+pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";

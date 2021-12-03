@@ -7,8 +7,10 @@ import Web3Modal from "web3modal";
 
 import { nftaddress, nftmarketaddress } from "../config";
 
-import NFT from '../abi/NFT.json'
+//import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
+//import Market from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json'
 import Market from '../abi/NFTMarket.json'
+import NFT from '../abi/NFT.json'
 
 export default function Home() {
   const [nfts, setNfts] = useState([]);
@@ -18,9 +20,7 @@ export default function Home() {
   }, []);
   async function loadNFTs() {
     /* create a generic provider and query for unsold market items */
-    const provider = new ethers.providers.JsonRpcProvider(
-      "https://rpc-mumbai.maticvigil.com"
-    );
+    const provider = new ethers.providers.JsonRpcProvider ("https://matic-mumbai.chainstacklabs.com");
     const tokenContract = new ethers.Contract(nftaddress, NFT.abi, provider);
     const marketContract = new ethers.Contract(
       nftmarketaddress,
