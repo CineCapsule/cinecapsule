@@ -70,7 +70,7 @@ export default function CreatorDashboard() {
               <Image src={nft.image} className="rounded" alt={nft.image}/>
               <div className="p-4 bg-black">
                 <p className="text-2xl font-bold text-white">
-                  Price - {nft.price} Eth
+                  Price - {nft.price} FUSE
                 </p>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function CreatorDashboard() {
                   <Image src={nft.image} className="rounded" alt={nft.image}/>
                   <div className="p-4 bg-white">
                     <p className="text-2xl font-bold text-white">
-                      Price - {nft.price} Eth
+                      Price - {nft.price} FUSE
                     </p>
                   </div>
                 </div>
