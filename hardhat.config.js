@@ -9,21 +9,18 @@ module.exports = {
     hardhat: {
       chainId: 1337,
     },
-    /*
     spark: {
       chainId: 123,
       url: "https://rpc.fusespark.io",
       accounts: [privateKey],
       gasPrice: 1000000000,
     },
-    
     fuse: {
       url: "https://rpc.fuse.io",
       chainId: 122,
       accounts: [privateKey],
       gasPrice: 1000000000,
     },
-    */
     mumbai: {
       // Infura
       //url: `https://polygon-mumbai.infura.io/v3/${infuraId}`,
@@ -32,8 +29,8 @@ module.exports = {
     },
     matic: {
       // Infura
-      url: `https://polygon-mainnet.infura.io/v3/${infuraId}`,
-      //url: "https://rpc-mainnet.maticvigil.com",
+      // url: `https://polygon-mainnet.infura.io/v3/${infuraId}`,
+      url: "https://matic-mainnet.chainstacklabs.com/",
       accounts: [privateKey],
     },
   },
