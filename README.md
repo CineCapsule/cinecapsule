@@ -1,4 +1,4 @@
-# CineCapsule Project
+# CineCapsule Project 🍿
 ## Inspiration kryptopixel-marketplace project: 
 https://github.com/Margotte83/Kryptopixel-marketplace
 
@@ -7,11 +7,11 @@ https://github.com/Margotte83/Kryptopixel-marketplace
 * A user purchases an item, the purchase price will be transferred from the buyer to the seller and the item will be transferred from the marketplace to the buyer.
 * The marketplace owner will be able to set a listing fee. This fee will be taken from the seller and transferred to the contract owner upon completion of any sale, enabling the owner of the marketplace to earn recurring revenue from any sale transacted in the marketplace.
 
-### The marketplace logic will consist of two smart contracts:
+### The marketplace logic will consist of two smart contracts
 * NFT Contract - This contract allows users to mint unique digital assets.
 * Marketplace Contract - This contract allows users to put their digital assets for sale on an open market.
 
-## Main technologies used:
+## Main technologies used 🧰 
 * Web application framework - Next.js
 * Solidity development environment - Hardhat
 * File Storage - IPFS
@@ -21,7 +21,7 @@ https://github.com/Margotte83/Kryptopixel-marketplace
 * Node.js installed on your machine
 * Metamask wallet extension installed as a browser extension
 
-## About Polygon:
+## About Polygon
 "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Aggregating scalable solutions on Ethereum supporting a multi-chain Ethereum ecosystem."
 
 ## Basic Sample Hardhat Project
