@@ -3,14 +3,11 @@ import { ethers } from "ethers";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Web3Modal from "web3modal";
-import Image from 'next/image'
 
 import { nftmarketaddress, nftaddress } from "../config";
 
 import NFT from '../abi/NFT.json'
 import Market from '../abi/NFTMarket.json'
-//import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
-//import Market from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json'
 
 export default function CreatorDashboard() {
   const [nfts, setNfts] = useState([]);
@@ -67,10 +64,10 @@ export default function CreatorDashboard() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           {nfts.map((nft, i) => (
             <div key={i} className="border shadow rounded-xl overflow-hidden">
-              <Image src={nft.image} className="rounded" alt={nft.image}/>
+              <img src={nft.image} className="rounded" />
               <div className="p-4 bg-black">
                 <p className="text-2xl font-bold text-white">
-                  Price - {nft.price} FUSE
+                  Price - {nft.price} Eth
                 </p>
               </div>
             </div>
@@ -87,10 +84,10 @@ export default function CreatorDashboard() {
                   key={i}
                   className="border shadow rounded-xl overflow-hidden"
                 >
-                  <Image src={nft.image} className="rounded" alt={nft.image}/>
+                  <img src={nft.image} className="rounded" />
                   <div className="p-4 bg-white">
                     <p className="text-2xl font-bold text-white">
-                      Price - {nft.price} FUSE
+                      Price - {nft.price} Eth
                     </p>
                   </div>
                 </div>

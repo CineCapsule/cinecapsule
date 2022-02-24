@@ -3,14 +3,12 @@ import { ethers } from "ethers";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Web3Modal from "web3modal";
-import Image from 'next/image'
+
 
 import { nftaddress, nftmarketaddress } from "../config";
 
-//import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
-//import Market from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json'
-import Market from '../abi/NFTMarket.json'
 import NFT from '../abi/NFT.json'
+import Market from '../abi/NFTMarket.json'
 
 export default function Home() {
   const [nfts, setNfts] = useState([]);
@@ -20,7 +18,9 @@ export default function Home() {
   }, []);
   async function loadNFTs() {
     /* create a generic provider and query for unsold market items */
-    const provider = new ethers.providers.JsonRpcProvider ("https://matic-mumbai.chainstacklabs.com");
+    const provider = new ethers.providers.JsonRpcProvider(
+      "https://rpc-mumbai.maticvigil.com"
+    );
     const tokenContract = new ethers.Contract(nftaddress, NFT.abi, provider);
     const marketContract = new ethers.Contract(
       nftmarketaddress,
@@ -81,7 +81,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           {nfts.map((nft, i) => (
             <div key={i} className="border shadow rounded-xl overflow-hidden">
-              <Image src={nft.image} alt={nft.image}/>
+              <img src={nft.image} />
               <div className="p-4">
                 <p
                   style={{ height: "64px" }}
@@ -95,7 +95,7 @@ export default function Home() {
               </div>
               <div className="p-4 bg-black">
                 <p className="text-2xl mb-4 font-bold text-white">
-                  {nft.price} FUSE
+                  {nft.price} ETH
                 </p>
                 <button
                   className="w-full bg-red-500 text-white font-bold py-2 px-12 rounded"

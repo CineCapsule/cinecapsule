@@ -1,7 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
 const fs = require("fs");
 const privateKey = fs.readFileSync(".env").toString().trim() || "";
-const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
+//const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
 
 module.exports = {
   defaultNetwork: "hardhat",
@@ -32,7 +32,7 @@ module.exports = {
       // url: `https://polygon-mainnet.infura.io/v3/${infuraId}`,
       url: "https://matic-mainnet.chainstacklabs.com/",
       accounts: [privateKey],
-    },
+    },npm
   },
   solidity: {
     version: "0.8.4",

@@ -160,14 +160,14 @@ export default function Footer() {
             <span className="ml-3 text-ms">
               How to use CineCapsule 3.0?
               <p className="text-white">
-                Connect your Metamask wallet to use this DApp. Polygon-Mainnet
-                or Mumbai-Testnet network is required.
+                Connect your Metamask wallet to use this DApp. You can use Mumbai tesnet 
+                or Polygon-Mainnet or Spark or Fuse RPC
               </p>
             </span>
           </a>
         </div>
       </div>
-      <div className="bg-black">
+      <div className="">
         <div
           className="
           container
@@ -198,7 +198,7 @@ export default function Footer() {
             sm:justify-start
           "
           >
-            <a href="" className="text-gray-500">
+            {/* <a href="" className="text-gray-500">
               <i className="fab fa-facebook-f"></i>
             </a>
             <a href="" className="ml-3 text-gray-500">
@@ -212,7 +212,7 @@ export default function Footer() {
             </a>
             <a href="" className="ml-3 text-gray-500">
               <i className="fab fa-instagram"></i>
-            </a>
+            </a> */}
           </span>
         </div>
       </div>
