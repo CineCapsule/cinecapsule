@@ -22,7 +22,7 @@
 ## About Polygon
 "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Aggregating scalable solutions on Ethereum supporting a multi-chain Ethereum ecosystem."
 
-#### Local setup
+## Local setup
 
 To run this project locally, follow these steps.
 
