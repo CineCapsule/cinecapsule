@@ -1,6 +1,4 @@
 # CineCapsule Project 🍿
-## Inspiration kryptopixel-marketplace project: 
-https://github.com/Margotte83/Kryptopixel-marketplace
 
 ## Principle
 * A user puts an item for sale, the ownership of the item will be transferred from the creator to the marketplace.
