@@ -1,6 +1,4 @@
 # CineCapsule Project 🍿
-## Inspiration kryptopixel-marketplace project: 
-https://github.com/Margotte83/Kryptopixel-marketplace
 
 ## Principle
 * A user puts an item for sale, the ownership of the item will be transferred from the creator to the marketplace.
@@ -24,7 +22,7 @@ https://github.com/Margotte83/Kryptopixel-marketplace
 ## About Polygon
 "Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Aggregating scalable solutions on Ethereum supporting a multi-chain Ethereum ecosystem."
 
-#### Local setup
+## Local setup
 
 To run this project locally, follow these steps.
 
