@@ -38,16 +38,7 @@ function Marketplace({ Component, pageProps }) {
       <br />
       <hr className="border-b border-yellow-400 w-1/2 mx-auto" />
       <br />
-      <div className="flex justify-evenly">
-        <div className="text-2xl mb-4 text-white font-bold">
-          Create and sell a digital asset
-        </div>
-        <div className="text-2xl mb-4 text-white font-bold">
-          Visit your dashboard
-        </div>
-        <div className="text-2xl mb-4 text-white  font-bold">
-          Buy and see your NFTS
-        </div>
+       <div className="flex justify-evenly">
       </div>
       <Component {...pageProps} />
       <Footer />
