@@ -9,6 +9,10 @@
 * NFT Contract - This contract allows users to mint unique digital assets.
 * Marketplace Contract - This contract allows users to put their digital assets for sale on an open market.
 
+### Docs.
+* This project was inspired by this documentation:
+ https://dev.to/edge-and-node/building-scalable-full-stack-apps-on-ethereum-with-polygon-2cfb
+
 ## Main technologies used 🧰 
 * Web application framework - Next.js
 * Solidity development environment - Hardhat
